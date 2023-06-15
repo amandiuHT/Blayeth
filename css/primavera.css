@@ -76,7 +76,7 @@ body {
     color: #333;
     justify-content: center;
   }
-  figure{
+  .info{
     background-color: #9E713E;
     border-radius: 10px;
     text-align: center;
