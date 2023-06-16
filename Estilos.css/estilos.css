@@ -85,3 +85,15 @@ body {
   text-align: center;
   margin-top: 0px;
 }
+/* Estilo para la lista desplegable */
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo para las opciones de la lista desplegable */
+option {
+  padding: 5px;
+}
