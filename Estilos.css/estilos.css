@@ -1,64 +1,87 @@
 body {
-    background-color: #95f1e7; /* Fondo verde menta */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .login {
-    background-color: #62d1c4;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .login__title {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .login__form-group {
-    margin-bottom: 15px;
-  }
-  
-  .login__label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  .login__input {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .login__button {
-    background-color: #4caf50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .login__register {
-    margin-top: 15px;
-    font-size: 14px;
-  }
-  
-  .login__register-link {
-    color: #4caf50;
-    text-decoration: none;
-  }
-  
-  .login__register-link:hover {
-    text-decoration: underline;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: 'Ananda';
+  background-color: #4ed1943b;
+}
+
+.header {
+  color: #0e0303;
+  padding: 9px;
+  text-align: center;
+  font-family: 'Ananda';
+}
+.header1 {
+  color: #0e0303;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Simply sans';
+
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+.login-container h2 {
+  text-align: center;
+  font-family: 'SimplySans';
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 5px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  background-color: #f0ad1c;
+  color: #f5f8f8;
+  border: none;
+  cursor: pointer;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: rgb(128, 231, 171);
+  color: #fff;
+  padding: 80px;
+  text-align: center;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #f1f5f5;
+  text-decoration: none;
+}
+.pie{
+  text-align: center;
+  margin-top: 0px;
+}
