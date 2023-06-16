@@ -58,12 +58,12 @@ body {
     width: 200px;
     height: 100px;
     margin: 10px;
-    background-color:#A883EB;
     text-align: center;
     line-height: 100px;
     font-size: 24px;
     color: #333;
   }
+  
   
   .section {
     width: 100px;
@@ -92,24 +92,6 @@ body {
     border-radius: 30px;
   }
   
-  #productos{
-    display: flex;
-  }
-  #productos2{
-    display: flex;
-  }
-  #shorts{
-    display: flex;
-  }
-  #shorts2{
-    display: flex;
-  }
-  #blusas{
-    display: flex;
-  }
-  #blusas2{
-    display: flex;
-  }
   /* Estilos para el pie de página */
   footer {
     background-color: #B2F3BE;
@@ -136,31 +118,13 @@ body {
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-color: #ccc;
+    
     color: #4ed194;
     text-align: center;
     line-height: 30px;
     border-radius: 50%;
     text-decoration: none;
   }
-  .carousel {
-    width: 100%;
-    max-width: 800px; /* Ancho máximo del carrusel */
-    margin: 0 auto; /* Centrar el carrusel horizontalmente */
-  }
   
-  .carousel .slides {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .carousel .slides li {
-    display: none; /* Ocultar los elementos de la lista inicialmente */
-  }
-  
-  .carousel .slides li img {
-    width: 100%; /* Ajustar el tamaño de las imágenes al ancho del carrusel */
-    height: auto;
-  }
   
   
