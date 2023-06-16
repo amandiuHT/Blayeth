@@ -1,0 +1,6 @@
+#informacion{
+    display: flex;
+}
+#descripcion p{
+    justify-content:flex-end;
+}
