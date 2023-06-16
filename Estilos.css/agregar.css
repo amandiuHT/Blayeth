@@ -1,4 +1,49 @@
-body {
+.upload-section {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .upload-section h2 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea,
+  .form-group input[type="number"],
+  .form-group input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .preview {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .preview img {
+    max-width: 100%;
+    max-height: 200px;
+    margin-top: 10px;
+  }
+  body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -84,28 +129,8 @@ body {
   img{
     width: 200px;
     height: 200px;
-    border-radius: 30px;
-  }
-  
-  #productos{
-    display: flex;
-  }
-  #productos2{
-    display: flex;
-  }
-  #shorts{
-    display: flex;
-  }
-  #shorts2{
-    display: flex;
-  }
-  #blusas{
-    display: flex;
-  }
-  #blusas2{
-    display: flex;
-  }
-  /* Estilos para el pie de página */
+    border-radius: 30px;}
+    /* Estilos para el pie de página */
   footer {
     background-color: #B2F3BE;
     padding: 20px;
